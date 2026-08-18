@@ -6,7 +6,7 @@ backend:
   pkce: true
 
 media_folder: "public/images/uploads"
-public_folder: "/images/uploads"
+public_folder: "/SnazBlogspot/images/uploads"
 
 collections:
   - name: "blog"

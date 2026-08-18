@@ -24,7 +24,7 @@ const Layout = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SnazBlogspot">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
